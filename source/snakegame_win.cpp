@@ -17,10 +17,10 @@ int main()
     trailX[dim*dim],trailY[dim*dim],
     foodX,foodY,
     lastX=-1,lastY=-1;
-    const char u='2',
-        r='6',
-        d='8',
-        l='4';
+    const char u='w',
+        r='d',
+        d='s',
+        l='a';
     bool isAlive=true;
     srand(time(0));
     do {
